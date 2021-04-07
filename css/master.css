@@ -1,14 +1,17 @@
+body{
+  padding: 30px;
+}
 .navbar {
     position: fixed;
-  	height: 100px;
+  	height: 80px;
     display: flex;
     background: black;
-    padding:7px;
     margin-left: -15px;
     margin-top: 0px;
     margin-right: -15px;
-    width: 100px;
-    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    top: 0%;
   }
   .logo{
     margin-left: 0px;
@@ -16,19 +19,49 @@
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
+    
+  }
+  .title{
+    color: white;
+    text-align: center;
+  }
+  .firstpart{
+    position: static;
+    text-align: left;
+    color: black;
+    padding-top: 150px;
+  }
+  .topleft {
+      position: absolute;
+      top: 8px;
+      left: 16px;
+  }
+  .gridcontainer{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 30px;
+  }
+  .pcaption {
+    margin-top: 10px;
+    width: 80%;
+  }
+  .gridcontainer2{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    column-gap: 40px;
+    row-gap: 30px;
   }
   h1{
+    padding-top: 40px;
     font-family: 'Playfair Display', serif;
-    font-size: 72px;
+    font-size: 62px;
   }
   h2{
     font-family: 'Playfair Display', serif;
-    font-size: 52px;
-  }
-
-  h3{
-
-  }
-  h4{
-
+    font-size: 22px;
   }

@@ -1,5 +1,6 @@
 body{
   padding: 30px;
+  font-family: 'Playfair Display', serif;
 }
 .navbar {
     position: absolute;
@@ -83,4 +84,11 @@ body{
     flex: 1;
     width: 90%;
     align-content: left;
+}
+h3{
+  font-family: 'Playfair Display', serif;
+}
+h4{
+  font-family: 'Playfair Display', serif;
+  font-weight: bolder;
 }
